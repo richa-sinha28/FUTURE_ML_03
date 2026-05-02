@@ -8,13 +8,13 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B?logo=streamlit&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikit-learn&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 <br/>
 
-![CV Analyzer Banner](https://img.shields.io/badge/50%2B%20Job%20Roles-Tech%20%26%20Non--Tech-a78bfa?style=for-the-badge)
-![CV Analyzer Banner](https://img.shields.io/badge/100%2B%20Skills%20Detected-NLP%20Powered-667eea?style=for-the-badge)
-![CV Analyzer Banner](https://img.shields.io/badge/Batch%20Screening-Leaderboard%20%26%20CSV-43e97b?style=for-the-badge)
+![](https://img.shields.io/badge/50%2B%20Job%20Roles-Tech%20%26%20Non--Tech-a78bfa?style=for-the-badge)
+![](https://img.shields.io/badge/100%2B%20Skills%20Detected-NLP%20Powered-667eea?style=for-the-badge)
+![](https://img.shields.io/badge/Batch%20Screening-Leaderboard%20%26%20CSV-43e97b?style=for-the-badge)
 
 </div>
 
@@ -24,9 +24,9 @@
 
 **CV Analyzer** is a beautifully designed, ML-powered resume screening web app built with Streamlit. It helps recruiters, HR teams, and hiring managers instantly evaluate resumes against job descriptions — scoring candidates on semantic similarity and skill match, detecting skill gaps, and ranking multiple candidates on a leaderboard.
 
-No paid APIs. No external databases. Everything runs locally on every submission.
+No paid APIs. No external databases. Everything runs fresh on every submission.
 
-### 🔗 Live Demo
+### 🚀 Live Demo
 👉 **[https://futureml03-i5a4nzvzqgaaawhb3y5bpv.streamlit.app/](https://futureml03-i5a4nzvzqgaaawhb3y5bpv.streamlit.app/)**
 
 ---
@@ -35,16 +35,16 @@ No paid APIs. No external databases. Everything runs locally on every submission
 
 ### 📄 Screen a Resume
 - Paste resume text **or** upload a PDF directly
-- Choose from **50+ preset job descriptions** (Tech & Non-Tech roles)
-- Or type your own custom job description
+- Choose from **50+ preset job descriptions** across Tech & Non-Tech roles
+- Or type a fully custom job description
 - Instant scoring with two complementary ML methods:
   - **TF-IDF Cosine Similarity** — semantic vocabulary match
   - **Skill Match Score** — direct keyword skill comparison
-- **Composite final score** with Grade (A / B / C / D) and hiring recommendation
+- Composite final score with Grade (A / B / C / D) and hiring recommendation
 - Visual **radar chart** showing skill coverage across 8 categories
 - Matched skills ✅, missing skills ❌, and bonus extra skills 🌟
 
-### 📊 Batch Compare (Candidate Leaderboard)
+### 📊 Batch Compare — Candidate Leaderboard
 - Add **multiple candidates** via paste text or PDF upload
 - Screen all candidates against a single job description in one click
 - Ranked leaderboard with scores, grades, skill tags, and verdict
@@ -53,8 +53,8 @@ No paid APIs. No external databases. Everything runs locally on every submission
 
 ### 💡 How It Works
 - Step-by-step methodology explanation for non-technical users
-- Grade thresholds table, important caveats, and role directory
-- Full skill taxonomy browser (100+ skills across 8 categories)
+- Grade thresholds table, important caveats, and full role directory
+- Skill taxonomy browser covering 100+ skills across 8 categories
 
 ---
 
@@ -141,12 +141,12 @@ Final Score = 50% × TF-IDF Cosine Similarity + 50% × Skill Match Score
 
 ---
 
-## 🚀 Run Locally
+## 🚀 Getting Started
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/richa-sinha28/FUTURE_ML_03.git
+cd FUTURE_ML_03
 ```
 
 ### 2. Install dependencies
@@ -175,17 +175,16 @@ matplotlib
 PyPDF2
 ```
 
-> **Note:** NLTK data (`stopwords`, `punkt`) is downloaded automatically on first run via `nltk.download()` calls inside the app.
 
 ---
 
 ## 📁 Project Structure
 
 ```
-📦 my-repo/
+FUTURE_ML_03/
  ┣ 📄 resume.py          # Main Streamlit application
  ┣ 📄 requirements.txt   # Python dependencies
- ┗ 📄 README.md          # This file
+ ┗ 📄 README.md          # Project documentation
 ```
 
 ---
@@ -206,9 +205,9 @@ PyPDF2
 
 ## ⚠️ Limitations & Notes
 
-- Scores are based on **text present in the CV** — a candidate may have a skill but not have written it
+- Scores are based on **text present in the CV** — a candidate may possess a skill that is simply not written in the resume
 - TF-IDF captures **vocabulary overlap**, not years of experience or depth of knowledge
-- Treat scores as **decision support**, not a replacement for human judgement
+- Scores are intended as **decision support**, not a replacement for human judgement
 - PDF extraction works best on **text-based PDFs** (not scanned image PDFs)
 - Analysis runs **fresh on every submission** — no model files or database required
 
@@ -225,6 +224,8 @@ Contributions are welcome! Feel free to open issues or pull requests for:
 ---
 
 <div align="center">
+
+
 
 ⭐ **Star this repo if you found it useful!**
 
