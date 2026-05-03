@@ -27,7 +27,7 @@
 No paid APIs. No external databases. Everything runs fresh on every submission.
 
 ### 🚀 Live Demo
-👉 **[https://futureml03-i5a4nzvzqgaaawhb3y5bpv.streamlit.app/](https://futureml03-i5a4nzvzqgaaawhb3y5bpv.streamlit.app/)**
+👉 **[https://futureml03-mnszwagcxlkbyce4es35gj.streamlit.app/]**
 
 ---
 
