@@ -1641,9 +1641,8 @@ elif page == "Batch Compare":
                     sp.set_visible(False)
                 ax.xaxis.grid(True, color='#1a1040', linewidth=0.8)
                 ax.set_axisbelow(True)
-                ax.legend(facecolor='#1a1040', edgecolor='rgba(167,139,250,0.2)',
-                          labelcolor='#8884a8', fontsize=9)
-
+                ax.legend(facecolor='#1a1040', edgecolor='#2e2060', labelcolor='#8884a8', fontsize=9)
+         
                 for bar_, s_ in zip(ax.patches, scores_):
                     ax.text(
                         bar_.get_width() + 0.8,
